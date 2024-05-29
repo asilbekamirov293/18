@@ -1,0 +1,31 @@
+.box {
+    background: rgb(255,255,255);
+    background: linear-gradient(160deg, rgba(255,255,255,1) 0%, rgba(172,75,0,1) 100%);
+    width: 1400px ;
+}
+.position {
+    background-color: red;
+    width: 400px;
+    height: 200px;
+    position: relative;
+    top: 100px;
+    left: 300px;
+    z-index: 0;
+}
+.position2 {
+    background-color: green;
+    width: 400px;
+    height: 200px;
+    position: relative;
+    left: 500px;
+    z-index: 1;
+}
+.position3 {
+    background-color: orange;
+    width: 400px;
+    height: 200px;
+    position: relative;
+    left: 700px;
+    z-index: 2;
+    top: -100px;
+}
